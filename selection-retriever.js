@@ -13,5 +13,5 @@ function retrieveSelection() {
         if (linkNode.getAttribute("href")[0] == '#') continue;
         urls.push(linkNode.href);
     }
-	  return urls;
+    return urls;
 }
